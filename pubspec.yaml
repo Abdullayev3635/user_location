@@ -31,6 +31,9 @@ dependencies:
   provider: ^6.0.0
   location: ^4.3.0
   battery: ^2.0.3
+  flutter_background_service: ^0.1.5
+  shared_preferences: ^2.0.6
+  background_fetch: ^1.0.1
 
 dev_dependencies:
   flutter_test:

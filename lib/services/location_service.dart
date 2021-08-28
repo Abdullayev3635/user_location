@@ -4,10 +4,8 @@ import 'package:location/location.dart';
 import 'package:user_location/datamodals/user_location.dart';
 
 class LocationService {
-  // Keep track of current Location
   late UserLocation _currentLocation;
   Location location = Location();
-  // Continuously emit location updates
   StreamController<UserLocation> _locationController =
   StreamController<UserLocation>.broadcast();
 
